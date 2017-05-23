@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MircodIOSFramework_Example' do
+  pod 'MircodIOSFramework', :path => '../'
+
+  target 'MircodIOSFramework_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
