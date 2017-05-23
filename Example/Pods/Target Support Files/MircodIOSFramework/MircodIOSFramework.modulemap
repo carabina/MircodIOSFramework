@@ -1,0 +1,6 @@
+framework module MircodIOSFramework {
+  umbrella header "MircodIOSFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}
