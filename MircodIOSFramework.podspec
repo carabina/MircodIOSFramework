@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MircodIOSFramework'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Simple helper for the work with devices.'
 
 # This description is used to generate tags and improve search results.
